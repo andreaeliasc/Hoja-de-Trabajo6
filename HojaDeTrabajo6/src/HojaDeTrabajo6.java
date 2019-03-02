@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package hojadetrabajo6;
+
 
 /**
  *
- * @author Andrea
+ * @author Andrea Elias 17048 
  */
 public class HojaDeTrabajo6 {
 
