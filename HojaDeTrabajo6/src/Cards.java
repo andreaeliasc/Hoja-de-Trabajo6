@@ -11,27 +11,47 @@
 public class Cards {
      private String nombre;
      private String tipo;
-     
+     /**
+      * 
+      * @param nombre
+      * @param tipo 
+      */
        public Cards(String nombre, String tipo){
         this.nombre = nombre;
         this.tipo = tipo;
     }
+       /**
+        * 
+        * @return nombre de la carta
+        */
        public String getNombre() {
         return nombre;
     }
-
+/**
+ * 
+ * @param nombre 
+ */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
+/**
+ * 
+ * @return tipo de carta
+ */
     public String getTipo() {
         return tipo;
     }
-
+/**
+ * 
+ * @param tipo 
+ */
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
-
+/**
+ * 
+ * @return 
+ */
     @Override
     public String toString() {
         return nombre + " | " + tipo;
